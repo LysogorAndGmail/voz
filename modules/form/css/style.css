@@ -1,0 +1,190 @@
+﻿div.form {font-family:arial, sans-serif; font-size:12px; color:#333333}
+    div.form a {font-size:12px;}
+    div.form > table.markup {}
+        div.form > table.markup > tbody {}
+            div.form > table.markup > tbody > tr {}
+                div.form > table.markup > tbody > tr > td {}
+                div.form > table.markup > tbody > tr > td.divider {font-size:1px; line-height:1px;}
+                div.form > table.markup > tbody > tr > td.divider.vertical   { width:10px;}
+                div.form > table.markup > tbody > tr > td.divider.horizontal {height:10px;}
+                div.form > table.markup > tbody > tr > td.caption {background:#d2cccc; color:#005E98; font-size:14px;}
+                    div.form > table.markup > tbody > tr > td.caption > table.decoration {}
+                        div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody {}
+                            div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr > td {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr > td.left   {width:118px;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr > td.right  {width:14px;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr > td.center {}
+                            div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.top {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.top > td {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.top > td.left   {background:url('images/caption/decoration/top/left.png')  repeat-y right top #dbd5d5;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.top > td.right  {background:url('images/caption/decoration/top/right.png') repeat-y right top #dbd5d5;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.top > td.center {background:#dbd5d5;}
+                            div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.bottom {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.bottom > td {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.bottom > td.left   {background:url('images/caption/decoration/bottom/left.png') repeat-y right top #d6d0d0;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.bottom > td.right  {background:url('images/caption/decoration/bottom/left.png') repeat-y right top #d6d0d0;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.bottom > td.center {background:#d6d0d0;}
+                            div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle > td {}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle > td.left   {background:url('images/caption/decoration/middle/left.png')  repeat-y right top #d2cccc;}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle > td.right  {/*background:url('images/caption/decoration/middle/right.png') repeat-y right top #d2cccc;*/}
+                                div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle > td.center {font-size:inherit; line-height:inherit;}
+                                    div.form > table.markup > tbody > tr > td.caption > table.decoration > tbody > tr.middle > td.center > div.inner {margin:0 -14px 0 -118px; padding:2px 21px; font-weight:bold;}
+                    div.form > table.markup > tbody > tr > td.caption a.overlay-switcher {float:right; color:#666666; font-weight:normal;}
+                div.form > table.markup > tbody > tr > td.description {font-size:11px; font-family:tahoma, sans-serif; color:#666666; padding:0 15px;}
+                div.form > table.markup > tbody > tr > td.errors {font-size:11px; font-family:tahoma, sans-serif; color:#CC0000; padding:0 15px;}
+                    div.form > table.markup > tbody > tr > td.errors > div {margin:4px 0 0 0;}
+                    div.form > table.markup > tbody > tr > td.errors > div:first-child {margin-top:0;}
+                div.form > table.markup > tbody > tr > td.grid {}
+                div.form > table.markup > tbody > tr > td.grid.elements  {}
+                div.form > table.markup > tbody > tr > td.grid.fieldsets {}
+                div.form > table.markup > tbody > tr > td.grid.subforms  {}
+                div.form > table.markup > tbody > tr > td.grid.controls  {float:right; width:auto;}
+                
+div.form table.grid {}
+    div.form table.grid > tbody {}
+        div.form table.grid > tbody > tr {}
+            div.form table.grid > tbody > tr > td {vertical-align:top;}
+            div.form table.grid > tbody > tr > td.divider {}
+            div.form table.grid > tbody > tr > td.divider.text {font-size:12px; text-align:center; vertical-align:middle;}
+            div.form table.grid > tbody > tr > td.element {}
+                
+div.formelement {}
+    div.formelement > table.markup {}
+        div.formelement > table.markup > tbody {}
+            div.formelement > table.markup > tbody > tr {}
+                div.formelement > table.markup > tbody > tr > td {vertical-align:top;}
+                div.formelement > table.markup > tbody > tr > td.divider {font-size:1px; line-height:1px;}
+                div.formelement > table.markup > tbody > tr > td.divider.vertical   { width:8px;}
+                div.formelement > table.markup > tbody > tr > td.divider.horizontal {height:4px;}
+                div.formelement > table.markup > tbody > tr > td.label {width:36%; text-align:right; height:14px; padding:3px 0 0 0;}
+                    div.formelement > table.markup > tbody > tr > td.label > label {font-size:10px; text-transform:uppercase;}
+                        div.formelement > table.markup > tbody > tr > td.label > label > span {color:#CC0000;}
+                div.formelement > table.markup > tbody > tr > td.description {color:#666666; font-size:11px; font-family:tahoma, sans-serif; text-align:right;}
+                div.formelement > table.markup > tbody > tr > td.errors      {color:#CC0000; font-size:11px; font-family:tahoma, sans-serif;}
+                    div.formelement > table.markup > tbody > tr > td.errors > div {color:#CC0000;}
+                div.formelement > table.markup > tbody > tr > td.element {}
+    div.formelement table.decoration {background:url('images/element/decoration/background.png') repeat-x top #F7F7F8;}
+        div.formelement table.decoration > tbody {}
+            div.formelement table.decoration > tbody > tr {}
+                div.formelement table.decoration > tbody > tr > td {}
+                div.formelement table.decoration > tbody > tr > td.left   {width:1px; background:#d4d6d7;}
+                div.formelement table.decoration > tbody > tr > td.right  {width:1px; background:#d4d6d7;}
+                div.formelement table.decoration > tbody > tr > td.center {}
+            div.formelement table.decoration > tbody > tr.top    {height:1px; background:#d4d6d7;}
+            div.formelement table.decoration > tbody > tr.bottom {height:1px; background:#d4d6d7;}
+            div.formelement table.decoration > tbody > tr.middle {}
+                div.formelement table.decoration > tbody > tr.middle > td {}
+                div.formelement table.decoration > tbody > tr.middle > td.left   {}
+                div.formelement table.decoration > tbody > tr.middle > td.right  {}
+                div.formelement table.decoration > tbody > tr.middle > td.center {}
+                    div.formelement table.decoration > tbody > tr.middle > td.center > div.inner {padding:0 5px;}
+                        div.formelement table.decoration > tbody > tr.middle > td.center > div.inner > * {background:none; border:none; float:left; width:100%; font-size:12px; font-family:arial, sans-serif; color:#909090;}
+                        div.formelement table.decoration > tbody > tr.middle > td.center > div.inner > input    {height:15px; padding:2px 0 0 0;}
+                        div.formelement table.decoration > tbody > tr.middle > td.center > div.inner > textarea {height:66px;}
+                        div.formelement table.decoration > tbody > tr.middle > td.center > div.inner > select   {height:17px; line-height:17px;}
+                            div.formelement table.decoration > tbody > tr.middle > td.center > div.inner > select > option {height:17px; line-height:17px; padding:0 5px;}
+    div.formelement.type_text {}
+    div.formelement.type_text.toweredview {}
+        div.formelement.type_text.toweredview > table.markup {}
+            div.formelement.type_text.toweredview > table.markup > tbody {}
+                div.formelement.type_text.toweredview > table.markup > tbody > tr {}
+                    div.formelement.type_text.toweredview > table.markup > tbody > tr > td {}
+                    div.formelement.type_text.toweredview > table.markup > tbody > tr > td.label {text-align:left;}
+    div.formelement.type_select {}
+        div.formelement.type_select > table.markup > tbody > tr > td.label {padding-top:2px;}
+        div.formelement.type_select table.decoration > tbody > tr.middle > td.center > div.inner {padding-left:0; padding-right:0;}
+    div.formelement.type_select.toweredview {}
+        div.formelement.type_select.toweredview > table.markup {}
+            div.formelement.type_select.toweredview > table.markup > tbody {}
+                div.formelement.type_select.toweredview > table.markup > tbody > tr {}
+                    div.formelement.type_select.toweredview > table.markup > tbody > tr > td {}
+                    div.formelement.type_select.toweredview > table.markup > tbody > tr > td.label {text-align:left;}
+    div.formelement.type_multiselect {}
+        div.formelement.type_multiselect > table.markup > tbody > tr > td.label {padding-top:2px;}
+        div.formelement.type_multiselect table.decoration > tbody > tr.middle > td.center > div.inner {padding-left:0; padding-right:0;}
+        div.formelement.type_multiselect table.decoration > tbody > tr.middle > td.center > div.inner > select {height:auto;}
+    div.formelement.type_checkbox {}
+        div.formelement.type_checkbox > table.markup > tbody > tr > td.label {width:auto; text-align:left; padding-top:3px;}
+        div.formelement.type_checkbox > table.markup > tbody > tr > td.element {width:36%; text-align:right;}
+        div.formelement.type_checkbox > table.markup > tbody > tr > td.description {text-align:left;}
+    div.formelement.type_radio {}
+        div.formelement.type_radio > table.markup > tbody > tr > td.element {}
+            div.formelement.type_radio > table.markup > tbody > tr > td.element > table {}
+                div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody {}
+                    div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr {}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td {}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td.divider {}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td.divider.vertical   { width:8px;}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td.divider.horizontal {height:4px;}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td.element {width:1px;}
+                        div.formelement.type_radio > table.markup > tbody > tr > td.element > table > tbody > tr > td.text    {}
+    div.formelement.type_captcha {}
+        div.formelement.type_captcha table.markup {}
+            div.formelement.type_captcha table.markup > tbody {}
+                div.formelement.type_captcha table.markup > tbody > tr {}
+                    div.formelement.type_captcha table.markup > tbody > tr > td {vertical-align:top;}
+                    div.formelement.type_captcha table.markup > tbody > tr > td.image {width:150px;}
+    a.formelement.type_link {display:block; padding:2px 0 0 0; white-space:nowrap;}
+    div.formelement.type_file {position:relative;}
+        div.formelement.type_file > table.markup {}
+            div.formelement.type_file > table.markup > tbody {}
+                div.formelement.type_file > table.markup > tbody > tr {}
+                    div.formelement.type_file > table.markup > tbody > tr > td {}
+                    div.formelement.type_file > table.markup > tbody > tr > td.element {text-align:right;}
+                        div.formelement.type_file > table.markup > tbody > tr > td.element > input {height:20px; z-index:2; text-align:right; width:100%; position:absolute; opacity:0; filter:opacity(0); cursor:pointer; left:0;}
+                        div.formelement.type_file > table.markup > tbody > tr > td.element > table {position:relative;}
+                            div.formelement.type_file > table.markup > tbody > tr > td.element > table td.button {width:80px;}
+    div.formelement.type_autocompleting {}
+        div.formelement.type_autocompleting table.decoration > tbody > tr.middle > td.center > div.inner {}
+            div.formelement.type_autocompleting table.decoration > tbody > tr.middle > td.center > div.inner > div.autocompletion {position:absolute; z-index:100; margin:18px 0 0 -5px; background:#F0F0F0;}
+                div.formelement.type_autocompleting table.decoration > tbody > tr.middle > td.center > div.inner > div.autocompletion > div.close {position:absolute; margin:1px 0 0 -14px; color:#FFFFFF; background:#CC0000; font-size:10px; padding:0 4px; font-variant:small-caps; cursor:pointer;}
+                div.formelement.type_autocompleting table.decoration > tbody > tr.middle > td.center > div.inner > div.autocompletion > div.option {padding:5px 10px; border:solid #CCCCCC; border-width:1px 0 0 0; cursor:pointer;}
+                div.formelement.type_autocompleting table.decoration > tbody > tr.middle > td.center > div.inner > div.autocompletion > div.option:hover {background:#005E98; color:#FFFFFF;}
+        div.formelement.type_autocompleting table.grid td.divider.horizontal {display:none;}
+        div.formelement.type_autocompleting table.grid td.divider.none       {display:none;}
+        div.formelement.type_autocompleting table.grid td.element.type_button.change {width:70px;}
+    div.formelement.type_textarea {}
+        div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner {padding:0;}
+            div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor {}
+                div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout {border:none;}
+                    div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody {}
+                        div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody > tr {}
+                            div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody > tr > td {}
+                            div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody > tr > td.mceToolbar   {background:none; border:none;}
+                            div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody > tr > td.mceStatusbar {background:none; border:none;}
+                            div.formelement.type_textarea table.decoration > tbody > tr.middle > td.center > div.inner > span.mceEditor > table.mceLayout > tbody > tr > td.mceIframeContainer {padding:2px 5px;}
+    div.formelement.type_overlay_element {}
+        div.formelement.type_overlay_element > table {}
+            div.formelement.type_overlay_element > table > tbody {}
+                div.formelement.type_overlay_element > table > tbody > tr {}
+                    div.formelement.type_overlay_element > table > tbody > tr > td {}
+                    div.formelement.type_overlay_element > table > tbody > tr > td.element {color:#005E98; font-weight:bold; padding:3px 0 0 0;}
+
+div.formcontrol {}
+    div.formcontrol > table.decoration {}
+        div.formcontrol > table.decoration > tbody {}
+            div.formcontrol > table.decoration > tbody > tr {}
+                div.formcontrol > table.decoration > tbody > tr > td {color:#464647;}
+                div.formcontrol > table.decoration > tbody > tr > td.left   {width:3px;}
+                div.formcontrol > table.decoration > tbody > tr > td.right  {width:3px;}
+                div.formcontrol > table.decoration > tbody > tr > td.center {}
+            div.formcontrol > table.decoration > tbody > tr.top {}
+                div.formcontrol > table.decoration > tbody > tr.top > td {height:7px;}
+                div.formcontrol > table.decoration > tbody > tr.top > td.left   {background:url('images/control/decoration/default/top/left.png')  no-repeat bottom right;}
+                div.formcontrol > table.decoration > tbody > tr.top > td.right  {background:url('images/control/decoration/default/top/right.png') no-repeat bottom left ;}
+                div.formcontrol > table.decoration > tbody > tr.top > td.center {background:url('images/control/decoration/default/top/center.png') repeat-x bottom;}
+            div.formcontrol > table.decoration > tbody > tr.bottom {}
+                div.formcontrol > table.decoration > tbody > tr.bottom > td {height:2px;}
+                div.formcontrol > table.decoration > tbody > tr.bottom > td.left   {background:url('images/control/decoration/default/bottom/left.gif')  no-repeat top right;}
+                div.formcontrol > table.decoration > tbody > tr.bottom > td.right  {background:url('images/control/decoration/default/bottom/right.gif') no-repeat top left ;}
+                div.formcontrol > table.decoration > tbody > tr.bottom > td.center {background:url('images/control/decoration/default/bottom/center.gif') repeat-x top;}
+            div.formcontrol > table.decoration > tbody > tr.middle {}
+                div.formcontrol > table.decoration > tbody > tr.middle > td {}
+                div.formcontrol > table.decoration > tbody > tr.middle > td.left   {background:url('images/control/decoration/default/middle/left.png')  repeat-y right;}
+                div.formcontrol > table.decoration > tbody > tr.middle > td.right  {background:url('images/control/decoration/default/middle/right.png') repeat-y left ;}
+                div.formcontrol > table.decoration > tbody > tr.middle > td.center {background:url('images/control/decoration/default/middle/center.png') repeat;}
+                    div.formcontrol > table.decoration > tbody > tr.middle > td.center > div.inner {margin:-7px -3px -2px -3px; padding:1px 5px 0 5px;}
+                        div.formcontrol > table.decoration > tbody > tr.middle > td.center > div.inner > * {background:none; border:none; margin:0; padding:0; float:left; width:100%; font-family:arial, sans-serif; font-size:12px; line-height:normal; color:#FFFFFF; cursor:pointer;}
+                        div.formcontrol > table.decoration > tbody > tr.middle > td.center > div.inner > input, div.formcontrol > table.decoration > tbody > tr.middle > td.center > div.inner > button {color:#464647;}
